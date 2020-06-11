@@ -7,10 +7,7 @@ class Student
 {
   String name;
   int roll_no;
-}
 
-class Student1
-{
   public static void main(String[] args)
   {
     Student s = new Student();
