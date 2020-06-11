@@ -13,20 +13,16 @@ class Rectangle
       length=a;
       breadth=b;
   }
-  public int getArea()
+  public int Area()
   {
-    return length*breadth;
+    int area=length*breadth; 
+    return area;
   }
-  public int getPerimeter()
-  {
-    return 2*(length+breadth);
-  }
-
 public static void main(String[] args)
     {
     Rectangle a = new Rectangle(4,5);
     Rectangle b = new Rectangle(5,8);
-    System.out.println("Rectangle1=> Area : "+a.getArea()+" Perimeter is "+a.getPerimeter());
-    System.out.println("Rectangle2=> Area : "+b.getArea()+" Perimeter is "+b.getPerimeter());
+    System.out.println("Rectangle1=> Area : "+a.Area());
+    System.out.println("Rectangle2=> Area : "+b.Area());
   }
 }
